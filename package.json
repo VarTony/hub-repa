@@ -1,0 +1,19 @@
+{
+  "name": "meadowlark-travel",
+  "version": "1.0.0",
+  "description": "TestSite",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "test run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
