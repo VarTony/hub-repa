@@ -32,7 +32,9 @@ app.get("/",  function(req, res){
 });
 
 app.get("/about",  function(req, res){
-res.render("about", {fortunes: fortune.getFortune()});
+  res.render("about", {fortunes: fortune.getFortune(),
+    pageTestScript: "/qa/tests-about.js"
+  });
 });
 
 //пользовательская страница 404
